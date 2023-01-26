@@ -1,0 +1,39 @@
+# GIT TIPS
+# LAST UPDATE - 2023 01 25
+# AUTHOR - JASON AHN
+
+
+**CONNECTING VSCODE-GITHUB WITH GIT**
+
+1. When cloning a repo on GitHub, go to Code -> HTTPS. Copy the URL.
+
+2. Git commands are same for all terminals (WSL, PowerShell, Mac, or Linux)
+
+3. In terminal, enter 'git clone URL'
+
+4. GitHub stopped allowing authenticate with Git using login ID and password, but to authenticate with 'Personal Access Token'
+   
+   To upload (ie. push) file to GitHub repo, it requires 'GitHub CLI tool'
+
+   4.1 In terminal, enter 'winget install github.cli'
+   4.2 In terminal, enter 'gh auth login' (WARNING: If terminal does not recognize 'gh auth login', re-start PC or VSCode)
+   4.3 Select GitHub.com
+   4.4 Select HTTPS as protocol
+   4.5 Type 'Y' to authenticate GitHub credentials
+   4.6 Hit 'Enter' to log-in with web
+   4.7 Enter one-time code in the web
+   
+5. In terminal, enter 'git config --global user.name &#34;YourUserName&#34;'
+
+   Tells Git who you are (Part 1)
+   
+6. In terminal, enter 'git config --global user.email &#34;YourEmailAddress&#34;'
+
+   Tells Git who you are (Part 2)
+   
+   
+   
+**USEFUL GIT COMMANDS**
+
+list of commands "gh --help"
+who is logged into GitHub "git config -l"
