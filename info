@@ -47,7 +47,9 @@
    In terminal, enter 'git push' (any future push)
    
    
+   
 **USEFUL GIT COMMANDS**
 
 list of commands "gh --help"
-who is logged into GitHub "git config -l"
+
+check who is logged into GitHub "git config -l"
