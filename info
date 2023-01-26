@@ -32,6 +32,20 @@
    Tells Git who you are (Part 2)
    
    
+**PUSHING UPDATE TO GITHUB REPO**
+
+1. In terminal, enter 'git add .' (pushes all files)
+   
+                enter 'git add fileName' (pushes specific filename)
+
+2. In terminal, enter 'git status' (confirms files are staged)
+
+3. In terminal, enter 'git commit -m "Insert a message here"' (messages are mandatory)
+
+4. In terminal, enter 'git push --set-upstream origin master' (first push only)
+
+   In terminal, enter 'git push' (any future push)
+   
    
 **USEFUL GIT COMMANDS**
 
