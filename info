@@ -53,3 +53,5 @@
 list of commands "gh --help"
 
 check who is logged into GitHub "git config -l"
+
+restore files from Github "git checkout ."
